@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Hero.module.css';
-import heroImage from '../../assets/images/background.jpg'; // Assicurati di salvare l'immagine nella directory indicata
+import heroImage from '../../assets/images/background.jpg';
 
 const Hero = () => {
   return (

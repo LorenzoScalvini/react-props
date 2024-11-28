@@ -12,12 +12,9 @@ export default function Header() {
     return (
         <div className={style.container}>
             <div className={style.navbar}>
-                {/* Logo */}
                 <div>
                     <img className={style.logo} src={logoImage} alt="Logo" />
                 </div>
-
-                {/* Menu visibile su desktop */}
                 <div className={style.links}>
                     <ul>
                         <li><a href="#">Link</a></li>
@@ -26,8 +23,6 @@ export default function Header() {
                         <li><a href="#">Link</a></li>
                     </ul>
                 </div>
-
-                {/* Bottone hamburger per dispositivi mobili */}
                 <button
                     className={style.hamburger}
                     onClick={toggleModal}
@@ -37,7 +32,6 @@ export default function Header() {
                 </button>
             </div>
 
-            {/* Modale per dispositivi mobili */}
             {isModalOpen && (
                 <div className={style.modalOverlay}>
                     <div className={style.modalContent}>

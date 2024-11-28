@@ -34,7 +34,7 @@
   }
   
   .learnMore {
-    background-color: #007aff;
+    background-color: #919191;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -46,13 +46,13 @@
   }
   
   .learnMore:hover {
-    background-color: #005bb5;
+    background-color: #c5c5c5;
   }
   
   .buy {
     background-color: transparent;
-    color: #007aff;
-    border: 2px solid #007aff;
+    color: #919191;
+    border: 2px solid #919191;
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 5px;
@@ -61,7 +61,7 @@
   }
   
   .buy:hover {
-    background-color: #007aff;
+    background-color: #d1d1d1;
     color: #fff;
   }
   
