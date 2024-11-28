@@ -24,7 +24,7 @@ export const posts = [
 	  content:
 		'Due sorelle incontrano spiriti magici nella campagna giapponese e formano un legame speciale con Totoro, un gentile spirito della foresta.',
 	  tags: ['famiglia', 'fantasy', 'avventura'],
-	  published: false,
+	  published: true,
 	},
 	{
 	  id: 4,
@@ -96,7 +96,7 @@ export const posts = [
 	  content:
 		'Chihiro, una giovane ragazza, entra in un mondo magico abitato da spiriti e deve salvare i suoi genitori trasformati in maiali.',
 	  tags: ['fantasy', 'avventura', 'crescita'],
-	  published: false,
+	  published: true,
 	},
 	{
 	  id: 12,
